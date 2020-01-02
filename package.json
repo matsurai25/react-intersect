@@ -1,8 +1,8 @@
 {
   "name": "react-intersect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper of IntersectionObserver",
-  "main": "src/Intersection.tsx",
+  "main": "dist/Intersection.js",
   "dependencies": {
     "intersection-observer": "^0.7.0",
     "react": "^16.12.0",
@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot --inline --watch-content-base --content-base public/ --open-page index.html"
+    "start": "webpack-dev-server --hot --inline --watch-content-base --content-base public/ --open-page index.html",
+    "build": "tsc -p ./"
   },
   "author": "matsurai25 <m.matsurai25@gmail.com> (https://github.com/matsurai25)",
   "license": "MIT"

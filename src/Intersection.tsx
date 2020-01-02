@@ -61,7 +61,9 @@ export default function Intersection({
   })
 
   React.useEffect(() => {
-    observer.observe(ref.current)
+    if (ref.current) {
+      observer.observe(ref.current)
+    }
     return () => observer.disconnect()
   }, [callback])
 
