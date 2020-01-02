@@ -22,8 +22,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot --inline --watch-content-base --content-base public/ --open-page index.html",
-    "build": "tsc -p ./"
+    "start": "webpack && webpack-dev-server --hot --inline --watch-content-base --content-base public/ --open-page index.html",
+    "build": "tsc -p ./ --declaration --outDir dist"
   },
   "author": "matsurai25 <m.matsurai25@gmail.com> (https://github.com/matsurai25)",
   "license": "MIT"
