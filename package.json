@@ -1,6 +1,6 @@
 {
-  "name": "intersect",
-  "version": "1.0.0",
+  "name": "react-intersect",
+  "version": "0.1.0",
   "description": "Wrapper of IntersectionObserver",
   "main": "src/Intersection.tsx",
   "dependencies": {
